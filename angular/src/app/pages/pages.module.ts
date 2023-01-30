@@ -10,6 +10,7 @@ import { EditarProveedorComponent } from './compras/proveedor/editar-proveedor/e
 import { RegistroMateriaComponent } from './inventarios/materiaprima/registro-materia/registro-materia.component';
 import { ListadoMateriaComponent } from './inventarios/materiaprima/listado-materia/listado-materia.component';
 import { CategoriaMateriaComponent } from './inventarios/materiaprima/categoria-materia/categoria-materia.component';
+import { OtroComponent } from './inventarios/otros/otro/otro.component';
 
 
 
@@ -23,6 +24,7 @@ import { CategoriaMateriaComponent } from './inventarios/materiaprima/categoria-
     RegistroMateriaComponent,
     ListadoMateriaComponent,
     CategoriaMateriaComponent,
+    OtroComponent,
   ],
   imports: [
     CommonModule,
