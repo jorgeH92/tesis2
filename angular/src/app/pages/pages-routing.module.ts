@@ -9,6 +9,7 @@ import { EditarProveedorComponent } from './compras/proveedor/editar-proveedor/e
 
 import { RegistroMateriaComponent } from './inventarios/materiaprima/registro-materia/registro-materia.component';
 import { ListadoMateriaComponent } from './inventarios/materiaprima/listado-materia/listado-materia.component';
+import { CategoriaMateriaComponent } from './inventarios/materiaprima/categoria-materia/categoria-materia.component';
 
 const routes:Routes=[
   {path:'dashboard', component:PagesComponent,
@@ -20,6 +21,7 @@ const routes:Routes=[
 
     {path:'registro-materia', component:RegistroMateriaComponent},
     {path:'listado-materia', component:ListadoMateriaComponent},
+    {path:'categoria-materia', component:CategoriaMateriaComponent},
 
 
       ]

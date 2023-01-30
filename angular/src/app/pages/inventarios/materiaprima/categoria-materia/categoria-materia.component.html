@@ -1,0 +1,369 @@
+ <!-- Content Wrapper. Contains page content -->
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+          <div class="row mb-2">
+            <div class="col-sm-6">
+              <h1>Categorias de Materia Prima</h1>
+            </div>
+            <div class="col-sm-6">
+              <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a routerLink="/dashboard">Inicio</a></li>
+                <li class="breadcrumb-item active">Registro de Categorias Materia Prima</li>
+              </ol>
+            </div>
+          </div>
+        </div><!-- /.container-fluid -->
+      </section>
+  
+      <section class="content">
+      <div class="container-fluid">
+      <div class="row">
+<div class="col-md-6">
+            <!-- general form elements -->
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Categorias</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form>
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Categoria</label>
+                    <input type="text" class="form-control" id="categoria" placeholder="Digite la categoria">
+                  </div>
+              
+                </div>
+                <!-- /.card-body -->
+  
+                  <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">Guardar</button>
+                   <button type="reset" class="btn btn-default float-right">Limpiar</button>
+
+                </div>
+                  
+              </form>
+            </div>
+            <!-- /.card -->
+        
+
+          </div>
+
+
+<!-- right column -->
+          <div class="col-md-6">
+            <!-- Form Element sizes -->
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Listado de Categorias</h3>
+              </div>
+              <div class="card-body">
+               
+              
+              <!-- /.card-header -->
+              <div class="card-body p-0">
+              	            <table id="example" class="table display nowrap  table table-bordered table-hover" style="width:100%">
+
+                  <thead>
+                    <tr>
+                      <th>Categorias</th>
+                      <th style="width: 40px">Acciones</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Categoria</td>
+                    
+   				<td >
+                 <div class="btn-group">
+                     
+                     
+                <a routerLink="/dashboard/editar-proveedor" class="btn btn-primary mr-1"><i class="fa-sharp fa-solid fa-pen-to-square" ></i></a>
+                 <button type="button"  name="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-danger"><i class="fa-sharp fa-solid fa-trash"></i></button>
+                      </div>
+
+                </td>                  
+                  </tr>
+                    <tr>
+                      <td>Categoria1</td>
+                    
+   				<td >
+                 <div class="btn-group">
+                     
+                     
+                <a routerLink="/dashboard/editar-proveedor" class="btn btn-primary mr-1"><i class="fa-sharp fa-solid fa-pen-to-square" ></i></a>
+                 <button type="button"  name="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-danger"><i class="fa-sharp fa-solid fa-trash"></i></button>
+                      </div>
+
+                </td>                  
+                  </tr>
+                    <tr>
+                      <td>Categoria2</td>
+                    
+   				<td >
+                 <div class="btn-group">
+                     
+                     
+                <a routerLink="/dashboard/editar-proveedor" class="btn btn-primary mr-1"><i class="fa-sharp fa-solid fa-pen-to-square" ></i></a>
+                 <button type="button"  name="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-danger"><i class="fa-sharp fa-solid fa-trash"></i></button>
+                      </div>
+
+                </td>                  
+                  </tr>
+                    <tr>
+                      <td>Categoria3</td>
+                    
+   				<td >
+                 <div class="btn-group">
+                     
+                     
+                <a routerLink="/dashboard/editar-proveedor" class="btn btn-primary mr-1"><i class="fa-sharp fa-solid fa-pen-to-square" ></i></a>
+                 <button type="button"  name="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-danger"><i class="fa-sharp fa-solid fa-trash"></i></button>
+                      </div>
+
+                </td>                  
+                  </tr>
+
+                    <tr>
+                      <td>Categoria4</td>
+                    
+   				<td >
+                 <div class="btn-group">
+                     
+                     
+                <a routerLink="/dashboard/editar-proveedor" class="btn btn-primary mr-1"><i class="fa-sharp fa-solid fa-pen-to-square" ></i></a>
+                 <button type="button"  name="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-danger"><i class="fa-sharp fa-solid fa-trash"></i></button>
+                      </div>
+
+                </td>                  
+                  </tr>
+
+                  </tbody>
+                </table>
+              </div>
+              
+
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+
+            
+   
+          </div>
+
+
+      </div>
+      </div>
+  
+
+      </section>
+
+
+    <section class="content">
+      <div class="container-fluid">
+      <div class="row">
+<div class="col-md-6">
+            <!-- general form elements -->
+            <div class="card card-secondary">
+              <div class="card-header">
+                <h3 class="card-title">Sub-Categorias</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form>
+                <div class="card-body">
+
+
+                    <div class="form-group">
+                                            <label>Selecione Categorias</label>
+                                         
+                                            <select class="form-control mr-2">
+                                              <option>Categoria</option>
+                                              <option>Categoria</option>
+                                              <option>Categoria</option>
+                                              <option>Categoria</option>
+                                              <option>Categoria</option>
+                                            </select>
+
+                     </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Sub-Categoria</label>
+                    <input type="text" class="form-control" id="sub" placeholder="Sub-Categoria">
+                  </div>
+              
+                </div>
+                <!-- /.card-body -->
+
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">Guardar</button>
+                   <button type="reset" class="btn btn-default float-right">Limpiar</button>
+
+                </div>
+              </form>
+            </div>
+            <!-- /.card -->
+        
+
+          </div>
+
+
+<!-- right column -->
+          <div class="col-md-6">
+            <!-- Form Element sizes -->
+            <div class="card card-secondary">
+              <div class="card-header">
+                <h3 class="card-title">Listado de Sub-Categorias</h3>
+              </div>
+              <div class="card-body">
+               
+              
+              <!-- /.card-header -->
+              <div class="card-body p-0">
+              	    <table id="example1" class="table display nowrap  table table-bordered table-hover" style="width:100%">
+
+                  <thead>
+                    <tr>
+                      <th>Categorias</th>
+                      <th>Sub-Categorias</th>                      
+                      <th style="width: 40px">Acciones</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Categoria</td>
+                      <td>Sub Categoria</td>
+                    
+   				<td >
+                 <div class="btn-group">
+                     
+                     
+                <a routerLink="/dashboard/editar-proveedor" class="btn btn-primary mr-1"><i class="fa-sharp fa-solid fa-pen-to-square" ></i></a>
+                 <button type="button"  name="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-danger2"><i class="fa-sharp fa-solid fa-trash"></i></button>
+                      </div>
+
+                </td>                  
+                  </tr>
+
+                   <tr>
+                      <td>Categoria</td>
+                      <td>Sub Categoria</td>
+                    
+   				<td >
+                 <div class="btn-group">
+                     
+                     
+                <a routerLink="/dashboard/editar-proveedor" class="btn btn-primary mr-1"><i class="fa-sharp fa-solid fa-pen-to-square" ></i></a>
+                 <button type="button"  name="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-danger2"><i class="fa-sharp fa-solid fa-trash"></i></button>
+                      </div>
+
+                </td>                  
+                  </tr>
+
+                   <tr>
+                      <td>Categoria</td>
+                      <td>Sub Categoria</td>
+                    
+   				<td >
+                 <div class="btn-group">
+                     
+                     
+                <a routerLink="/dashboard/editar-proveedor" class="btn btn-primary mr-1"><i class="fa-sharp fa-solid fa-pen-to-square" ></i></a>
+                 <button type="button"  name="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-danger2"><i class="fa-sharp fa-solid fa-trash"></i></button>
+                      </div>
+
+                </td>                  
+                  </tr>
+
+                   <tr>
+                      <td>Categoria</td>
+                      <td>Sub Categoria</td>
+                    
+   				<td >
+                 <div class="btn-group">
+                     
+                     
+                <a routerLink="/dashboard/editar-proveedor" class="btn btn-primary mr-1"><i class="fa-sharp fa-solid fa-pen-to-square" ></i></a>
+                 <button type="button"  name="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-danger2"><i class="fa-sharp fa-solid fa-trash"></i></button>
+                      </div>
+
+                </td>                  
+                  </tr>
+                   
+
+                  </tbody>
+                </table>
+              </div>
+              
+
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+
+            
+   
+          </div>
+
+
+      </div>
+      </div>
+  
+
+      </section>
+
+
+
+  <!-- modal danger -->
+
+      <div class="modal fade" id="modal-danger">
+        <div class="modal-dialog">
+          <div class="modal-content bg-danger">
+            <div class="modal-header">
+              <h4 class="modal-title">Eliminar Categoria</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>¿Estás seguro de eliminar el registro?&hellip;</p>
+            </div>
+            <div class="modal-footer justify-content-between">
+              <button type="button" class="btn btn-outline-light" data-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-outline-light">Si</button>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
+
+
+
+  <!-- modal danger2 -->
+
+      <div class="modal fade" id="modal-danger2">
+        <div class="modal-dialog">
+          <div class="modal-content bg-danger">
+            <div class="modal-header">
+              <h4 class="modal-title">Eliminar Sub-Categoria</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>¿Estás seguro de eliminar el registro?&hellip;</p>
+            </div>
+            <div class="modal-footer justify-content-between">
+              <button type="button" class="btn btn-outline-light" data-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-outline-light">Si</button>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
